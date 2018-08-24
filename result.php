@@ -73,7 +73,7 @@
 		            data => $baseball
 		        ),
 		        array(
-		            label => "None of the Above1",
+		            label => "None of the Above",
 		            data => $noa
 		        )
 		    );
