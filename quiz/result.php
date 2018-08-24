@@ -11,6 +11,7 @@
 	<script type="text/javascript" src="js/flot/jquery.flot.pie.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
@@ -78,23 +79,24 @@
 		    );
 			// Use Smarty to extract each variable to html if exterial libraries are allowed
 			echo 
-			"<div class=page-wrap>
+			"<div class='page-wrap'>
 				<div class=header>
 					<h1>How well do you know sports</h1>
 				</div >
-				<div class=outcome>
-					<h2>Results are as follows</h2>
-				</div>
-				<div class=outcome-image>
-					<img src=$reactionImage alt=Reaction to the result>
-				</div>
-				<div class=outcome>
-					<h3>You have answered $correctNum out of 10 questions correctly </h3>
-					
+				<div class='container wrapper'>
+					<div class=outcome>
+						<h2>Results are as follows</h2>
+					</div>
+					<div class=outcome-image>
+						<img src=$reactionImage alt=Reaction to the result>
+					</div>
+					<div class=outcome>
+						<h3>You have answered $correctNum out of 10 questions correctly </h3>
+						
+					</div>
+					<div id=piechart class=flot></div>
 				</div>
 			</div>";
-			echo "<div id=piechart class=flot></div>";
-			echo json_encode($arr);
 		 ?>
 
 		 <script type="text/javascript">
