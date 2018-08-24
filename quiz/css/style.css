@@ -1,0 +1,150 @@
+/*main and result*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font:12px Verdana, serif;
+}
+img{
+	width:500px;
+	height:300px;
+	vertical-align: middle;
+	display: table;
+}
+
+h1{
+	font: 14xpx Verdana, serif;
+	letter-spacing: 2px;
+	text-transform: uppercase; 
+	padding-top: 2px;
+	text-align: center;
+}
+
+.header{
+	height: 100px;
+	background: #ffffff;
+	border-bottom: 1px solid #CCC;
+	width:100%;
+	position:fixed;
+	top:0px;
+	margin: 0px;
+}
+
+.content{
+	width: 960px;
+	margin: 0px auto;
+	padding-top: 50px;
+}
+
+.image-cont{
+	width: 960px;
+	margin:0px auto;
+	padding-top: 120px;
+}
+
+.image-cont p{
+	font: 17px Verdana, serif;
+	vertical-align: middle;
+	display: table-cell;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+}
+
+.image-cont h5{
+	font: 15px Verdana, serif;
+	padding-bottom: 20px;
+}
+
+#quiz input{
+	vertical-align: middle;
+}
+
+#quiz ol li{
+	margin: 0 0 20px 0;
+}
+
+#quiz ol li div{
+	padding: 4px 0;
+}
+
+#quiz h3{
+	font-size: 17px;
+	margin: 0 0 1px 0;
+	color: #666;
+}
+
+#results{
+	font: 44px Verdana, serif;
+}
+
+input[type=submit]{
+	padding:5px 15px; 
+	margin-bottom: 50px;
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+/*=================================================*/
+
+/*result*/
+
+.outcome{
+	width: 960px;
+	margin: 0px auto;
+	padding-top: 50px;
+}
+
+.outcome h2{
+	font: 28px Verdana, serif;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+	padding-top: 120px;
+	border-bottom: 3px solid crimson;
+	margin: 0;
+}
+
+.outcome h3{
+	font: 25px Verdana, serif;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+	text-transform: uppercase; 
+	margin: 0;
+	text-align: center;
+}
+
+.outcome-image{
+	width:100%;
+	padding-top:10px;
+}
+
+.outcome-image img{
+	width: 30%;
+	height: 30%;
+	display: block;
+	margin: 0 auto;
+}
+
+.flot {
+    left: 0px;
+    top: 0px;
+    width: 610px;
+    height: 250px;
+}
+#flotTip {
+    padding: 3px 5px;
+    background-color: #000;
+    z-index: 100;
+    color: #fff;
+    opacity: .80;
+    filter: alpha(opacity=85);
+}
+.pieLabel div {
+    color: white !important;
+    text-shadow: 0 0 4px #000;
+}

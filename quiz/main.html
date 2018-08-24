@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Sports Quiz</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class=page-wrap>
+		<div class="header">
+			<h1>How well do you know sports</h1>
+		</div >
+
+		<div class=image-cont>
+			<p>Sports Quiz: Multiple Choice Questions</p>
+			<h5><b>10 Questions</b> | By John Park</h5>
+			<img src="image/quiz.jpg" alt="quiz image">
+		</div>
+
+		<div class="content">
+			<form action="result.php" method="post" id="quiz">
+				<ol>
+					<li>
+						<div class="question">
+						<h3>What's your favorite sports?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q1Answer" id="q1AnswerA" value="A">
+									<label for="q1AnswerA">Soccer</label>
+								</div>
+								<div>
+									<input type="radio" name="q1Answer" id="q1AnswerB" value="B">
+									<label for="q1AnswerB">Basketball</label>
+								</div>
+								<div>
+									<input type="radio" name="q1Answer" id="q1AnswerC" value="C">
+									<label for="q1AnswerC">Baseball</label>
+								</div>
+								<div>
+									<input type="radio" name="q1Answer" id="q1AnswerD" value="D">
+									<label for="q1AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="question">
+						<h3>Who is your favorite athlete?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q2Answer" id="q2AnswerA" value="A">
+									<label for="q2AnswerA">Wayne Rooney</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q2Answer" id="q2AnswerB" value="B">
+									<label for="q2AnswerB">Demar Derozan</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q2Answer" id="q2AnswerC" value="C">
+									<label for="q2AnswerC">Jose Bautista</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q2Answer" id="q2AnswerD" value="D">
+									<label for="q2AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="question">
+						<h3>Who is your least favorite athlete?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q3Answer" id="q3AnswerA" value="A">
+									<label for="q3AnswerA">Neymar jr.</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q3Answer" id="q3AnswerB" value="B">
+									<label for="q3AnswerB">J.R.Smith</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q3Answer" id="q3AnswerC" value="C">
+									<label for="q3AnswerC">Rougned Odor</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q3Answer" id="q3AnswerD" value="D">
+									<label for="q3AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="question">
+						<h3>What is your favorite sports team?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q4Answer" id="q4AnswerA" value="A">
+									<label for="q4AnswerA">Manchester United</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q4Answer" id="q4AnswerB" value="B">
+									<label for="q4AnswerB">Raptors</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q4Answer" id="q4AnswerC" value="C">
+									<label for="q4AnswerC">Bluejays</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q3Answer" id="q4AnswerD" value="D">
+									<label for="q4AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="question">
+						<h3>What sports team do you dislike the most?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q5Answer" id="q5AnswerA" value="A">
+									<label for="q5AnswerA">Liverpool FC</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q5Answer" id="q5AnswerB" value="B">
+									<label for="q5AnswerB">Cavaliers</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q5Answer" id="q5AnswerC" value="C">
+									<label for="q5AnswerC">Rangers</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q5Answer" id="q5AnswerD" value="D">
+									<label for="q5AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					<li>
+						<div class="question">
+						<h3>Which of the sports have a position Goalkeeper?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q6Answer" id="q6AnswerA" value="A">
+									<label for="q6AnswerA">Soccer</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q6Answer" id="q6AnswerB" value="B">
+									<label for="q6AnswerB">Basketball</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q6Answer" id="q6AnswerC" value="C">
+									<label for="q6AnswerC">Baseball</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q6Answer" id="q6AnswerD" value="D">
+									<label for="q6AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="question">
+						<h3>Which of the sports uses a ball that is smallest in radius?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q7Answer" id="q7AnswerA" value="A">
+									<label for="q7AnswerA">Soccer</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q7Answer" id="q7AnswerB" value="B">
+									<label for="q7AnswerB">Basketball</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q7Answer" id="q7AnswerC" value="C">
+									<label for="q7AnswerC">Baseball</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q7Answer" id="q7AnswerD" value="D">
+									<label for="q7AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="question">
+						<h3>What is the most popular sports in the World based on a study conducted in 2018</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q8Answer" id="q8AnswerA" value="A">
+									<label for="q8AnswerA">Soccer</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q8Answer" id="q8AnswerB" value="B">
+									<label for="q8AnswerB">Basketball</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q8Answer" id="q8AnswerC" value="C">
+									<label for="q8AnswerC">Baseball</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q8Answer" id="q8AnswerD" value="D">
+									<label for="q8AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="question">
+						<h3>Which of the sports is the phrase "Homerun" from?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q9Answer" id="q9AnswerA" value="A">
+									<label for="q9AnswerA">Soccer</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q9Answer" id="q9AnswerB" value="B">
+									<label for="q9AnswerB">Basketball</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q9Answer" id="q9AnswerC" value="C">
+									<label for="q9AnswerC">Baseball</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q9Answer" id="q9AnswerD" value="D">
+									<label for="q9AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="question">
+						<h3>Which of the sports is the phrase "Hole in one" from?</h3>
+							<div class="choices">
+								<div>
+									<input type="radio" name="q10Answer" id="q10AnswerA" value="A">
+									<label for="q10AnswerA">Soccer</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q10Answer" id="q10AnswerB" value="B">
+									<label for="q10AnswerB">Basketball</label>
+								</div>					
+
+								<div>
+									<input type="radio" name="q10Answer" id="q10AnswerC" value="C">
+									<label for="q10AnswerC">Baseball</label>
+								</div>
+
+								<div>
+									<input type="radio" name="q10Answer" id="q10AnswerD" value="D">
+									<label for="q10AnswerD">None of the above</label>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ol>
+
+				<input type="submit" value="Submit Answers">
+
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
